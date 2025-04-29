@@ -1,0 +1,81 @@
+.neon-board {
+    max-width: 600px; /* Asegura que la fila tenga un ancho máximo */
+    margin: auto;
+    height: 400px
+      /* Centra la fila en la pantalla */
+  }
+  
+  .neon-cell {
+    position: relative;
+    height:100%;
+    width: 100%; /* Hace que la celda ocupe el 100% de su contenedor */
+    border-radius: 12px;
+    background-color: #111;
+    border: 2px solid #0ff; /* Borde de la celda */
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff; /* Efecto de sombra para el neón */
+    user-select: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Espaciado dentro de la celda */
+    box-sizing: border-box; /* Asegura que los bordes no afecten el tamaño */
+  }
+  
+  .neon-cell:hover {
+    transform: scale(1.1); /* Efecto al pasar el ratón sobre la celda */
+    box-shadow: 0 0 15px #0ff, 0 0 30px #0ff; /* Sombra más grande al hacer hover */
+  }
+  
+  .neon-cell:active {
+    transform: scale(0.95); /* Efecto de "click" */
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  
+ 
+.container-fluid {
+    background-color: black; 
+}
+
+.text-X {
+    color: rgb(255, 0, 0); 
+    text-shadow: 0 0 50px rgb(255, 0, 0), 0 0 50px rgb(255, 0, 0); /* Sombra de texto para el efecto neón */
+    font-size: 2.5rem; /* Tamaño de texto adecuado para las celdas */
+    font-weight: bold;
+}
+
+.text-O {
+    color: rgba(0, 255, 0, 0.658);
+    text-shadow: 0 0 50px rgb(0, 255, 0), 0 0 50px rgb(0, 255, 0); /* Color del texto (neón) */
+    font-size: 2.5rem; /* Tamaño de texto adecuado para las celdas */
+    font-weight: bold;
+}
+
+.neon-alert {
+    color: #0ff; /* Color del texto de la alerta */
+    text-shadow: 0 0 50px #0ff, 0 0 50px #0ff; /* Sombra de texto para el efecto neón */
+    font-size: 2rem; /* Tamaño de texto adecuado para la alerta */
+    font-weight: bold;
+    text-align: center; /* Centra el texto de la alerta */
+    margin-top: 20px; /* Espacio superior para separar la alerta del tablero */
+     /* Espacio inferior para separar la alerta del tablero */
+}
+
+.neon-button {
+    background-color: #000; /* Color de fondo del botón */
+    color: rgb(0, 17, 255); /* Color del texto del botón */
+    border: 2px solid rgb(0, 17, 255); /* Borde del botón */
+    box-shadow: 0 0 10px rgba(98, 0, 255, 0.541), 0 0 20px rgba(98, 0, 255, 0.541); /* Efecto de sombra para el neón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    border-radius: 12px; /* Bordes redondeados */
+    font-size: 1.5rem; /* Tamaño de texto adecuado para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: 0.2s ease-in-out; /* Transición suave al interactuar con el botón */
+    margin-top: 30px; /* Espacio superior para separar el botón de la alerta */
+}
+.neon-button:hover {
+    transform: scale(1.1); /* Efecto al pasar el ratón sobre el botón */
+    box-shadow: 0 0 15px #0ff, 0 0 30px #0ff; /* Sombra más grande al hacer hover */
+}
