@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Board.css";
+import '../../styles/board.css';
 import Game from "./Game"; // Importamos el componente Game
 
 

@@ -3,9 +3,9 @@
     margin: auto;
     height: 400px
       /* Centra la fila en la pantalla */
-  }
+}
   
-  .neon-cell {
+.neon-cell {
     position: relative;
     height:100%;
     width: 100%; /* Hace que la celda ocupe el 100% de su contenedor */
@@ -22,7 +22,7 @@
     text-align: center;
     padding: 20px; /* Espaciado dentro de la celda */
     box-sizing: border-box; /* Asegura que los bordes no afecten el tamaño */
-  }
+}
   
   .neon-cell:hover {
     transform: scale(1.1); /* Efecto al pasar el ratón sobre la celda */
@@ -34,7 +34,6 @@
     box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
   }
   
- 
 .container-fluid {
     background-color: black; 
 }
@@ -62,7 +61,6 @@
     margin-top: 20px; /* Espacio superior para separar la alerta del tablero */
      /* Espacio inferior para separar la alerta del tablero */
 }
-
 .neon-button {
     background-color: #000; /* Color de fondo del botón */
     color: rgb(0, 17, 255); /* Color del texto del botón */

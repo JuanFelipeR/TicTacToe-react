@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Board.css";
+import '../../styles/board.css';
 import Home from "./Home"; // Importamos el componente Home
 
 
